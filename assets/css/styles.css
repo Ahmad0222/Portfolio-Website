@@ -195,11 +195,7 @@ img{
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
-.nav__ico{
-    font-size: 50px;
-    color: var(--title-color);
-    padding-right: var(--mb-0-5);
-}
+
 .nav__logo:hover{
     color: var(--first-color);
 }
