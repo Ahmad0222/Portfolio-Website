@@ -196,7 +196,7 @@ img{
 }
 .logo{
     width: 12rem;
-    fill: var(--first-color);
+    fill: var(--title-color);
 }
 
 .nav__toggle{
