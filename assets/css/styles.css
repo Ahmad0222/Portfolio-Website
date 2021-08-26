@@ -406,10 +406,12 @@ img{
 }
 /*==================== ABOUT ====================*/
 
+
 .about__img{
-    margin-left: 2rem;
-    margin-top: -2.1rem;
-    min-width: 350px;
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
 }
 .about__description{
     text-align: center;
@@ -417,7 +419,7 @@ img{
 }
 .about__info{
     display: flex;
-    justify-content: space-evenly   ;
+    justify-content: space-evenly;
     margin-bottom: var(--mb-2-5);
     
 }
