@@ -51,17 +51,21 @@ tabs.forEach(tab => {
             tabContent.classList.remove('qualification__active');
 
         })
-
+        
         target.classList.add('qualification__active');
-
         //loop through 'li' items and remove 'active' class
         tabs.forEach(tab => {
               tab.classList.remove('qualification__active');
-          })
-
+          });
        //add 'active' class to clicked 'li' item
-        e.target.classList.add("qualification__active");
+        e.target.classList.add("active-link");
 
+        //remove 'active' class from all other 'li' items
+        tabs.forEach(tab => {
+            if (tab !== e.target) {
+                tab.classList.remove('active-link');
+            }
+        });
     })
 })
 

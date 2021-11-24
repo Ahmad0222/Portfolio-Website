@@ -496,19 +496,19 @@ img{
     width: 90%;
 }
 .skills_css{
-    width: 60%;
+    width: 70%;
 }
 .skills_js{
-    width: 40%;
+    width: 60%;
 }
 .skills_ps{
-    width: 70%;
+    width: 80%;
 }
 .skills_ai{
-    width: 70%;
+    width: 80%;
 }
 .skills_xd{
-    width: 60%;
+    width: 70%;
 }
 .skills_python{
     width: 60%;
@@ -549,7 +549,7 @@ img{
     cursor: pointer;
 }
 .qualification__button:hover{
-    color: var(--first-color);
+    color: var(--scroll-bar-color);
 }
 .qualification__icon{
     font-size: 1.8rem;
@@ -764,7 +764,8 @@ img{
 /*==================== TESTIMONIAL ====================*/
 .testimonial__data,
 .testimonial__header{
-    display: flex;
+    align-items: center;
+    text-align: center;
 }
 .testimonial__data{
     justify-content: space-between;
@@ -973,6 +974,7 @@ img{
     .testimonial__header{
         flex-direction: column;
         align-items: center;
+
     }
     .testimonial__img{
         margin-right: 0;
