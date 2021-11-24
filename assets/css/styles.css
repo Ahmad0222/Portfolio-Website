@@ -786,6 +786,7 @@ img{
 }
 .testimonial__description{
     margin-bottom: var(--mb-2-5);
+    text-align:center;
 }
 .testimonial__icon-star{
     color: var(--first-color);
