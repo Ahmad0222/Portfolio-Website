@@ -22,6 +22,11 @@
     --container-color: #fff;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+    --scroll-header-bg: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.3)
+      );
 
 
     /*========== Font and typography ==========*/
@@ -81,6 +86,11 @@ body.dark-theme{
     --container-color: hsl(var(--hue-color), 29%, 16%);
     --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+    --scroll-header-bg: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.3),
+      );
 }
 
 /*========== Button Dark/Light ==========*/
@@ -1199,13 +1209,9 @@ img{
         bottom: 3rem;
     }
     .scroll-header {
-        background: linear-gradient(
-        to right bottom,
-        rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.5)
-      );
+        background: var(--scroll-header-bg);
         backdrop-filter: blur(0.35rem);
-        box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
+        box-shadow: 0 0 4px rgba(127, 69, 204, 0.15);
       }
 }
 
@@ -1270,11 +1276,7 @@ img{
         grid-template-columns: repeat(2, 1fr );
     }
     .scroll-header {
-        background: linear-gradient(
-        to right bottom,
-        rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.5)
-      );
+        background: var(--scroll-header-bg);
         backdrop-filter: blur(0.35rem);
         box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
       }
